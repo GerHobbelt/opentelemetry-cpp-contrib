@@ -23,6 +23,7 @@ ngx_module_srcs=" \
 "
 ngx_module_libs=" \
   -lstdc++ \
+  -lprotobuf \
   -lopentelemetry_common \
   -lopentelemetry_resources \
   -lopentelemetry_trace \
