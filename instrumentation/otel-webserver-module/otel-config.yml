@@ -32,3 +32,6 @@ service:
             receivers: [otlp, zipkin]
             exporters: [logging, zipkin]
             processors: [resource]
+    telemetry:
+      metrics:
+        address: ":8888"
